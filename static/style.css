@@ -1,0 +1,22 @@
+/* Tüm sayfa alanını kaplar */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* İçeriği dikey hizalar */
+    min-height: 100vh; /* Minimum ekran yüksekliği */
+}
+
+.content {
+    flex: 1; /* İçerik alanı esnek büyür */
+}
+
+footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+}

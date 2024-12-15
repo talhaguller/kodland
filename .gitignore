@@ -1,0 +1,16 @@
+# Sanal ortamı (env) yok say
+env/
+
+# Python bytecode dosyalarını yok say
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE'lere özgü dosyalar
+.vscode/
+.idea/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz - Giriş</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Hoş Geldiniz!</h1>
+    <form method="POST" action="{{ url_for('index') }}">
+        <label for="username">Adınızı Girin:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">Sınava Başla</button>
+    </form>
+    <footer>
+        <p>Yazar: Talha Güller</p>
+    </footer>
+</body>
+</html>
